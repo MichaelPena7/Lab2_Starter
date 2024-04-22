@@ -131,3 +131,13 @@ section {
     padding: 15px;
     margin: 2rem auto;
 }
+@font-face {
+    font-family: 'Jersey10';
+    src: url('fonts/Jersey10.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Jersey10', Arial, sans-serif;  /* Fallback fonts */
+}
