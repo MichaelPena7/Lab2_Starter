@@ -7,7 +7,7 @@
     box-sizing: border-box; /*Ensures padding and border are included in the total width and height of elements ! */
 }
 body {
-    font-family: Sedan, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: var(--text-color, black);
     background-color: #c7ffd1;
 }
