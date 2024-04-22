@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color, black);
+    background-color: #ecf0f1;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: var(--secondary-color);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #bdc3c7;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#attendees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#agenda {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    border: 2px solid var(--secondary-color);
+    padding: 15px;
+    margin: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li {
+    text-decoration: underline;
+    display: inline-block; /*Display list items inline with the block properties ! */
+}
+
+li:hover {
+    background-color: var(--primary-color);
+}
+
+section:has(h3) {
+    border-style: dashed;
+}
