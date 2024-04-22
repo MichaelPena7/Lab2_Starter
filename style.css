@@ -124,6 +124,8 @@ section {
     right: 10px;
     bottom: 10px;
     z-index: 1000;
+    width: 100px; 
+    height: auto;
 }
 section {
     position: relative; /* Needed to scope the positioning of .logo correctly */
