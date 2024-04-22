@@ -3,11 +3,17 @@
     --secondary-color: #34bf6e;
     --text-color: #16251b;
 }
-
+* {
+    box-sizing: border-box; /*Ensures padding and border are included in the total width and height of elements ! */
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: Sedan, sans-serif;
     color: var(--text-color, black);
     background-color: #c7ffd1;
+}
+
+input[type="text"] {
+    border: 2px solid var(--secondary-color);
 }
 
 header, footer {
@@ -76,4 +82,39 @@ li:hover {
 
 section:has(h3) {
     border-style: dashed;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header, footer, button {
+    font-weight: bold;
+}
+
+section h3 {
+    margin-top: 10px;
+}
+
+header > h1 {
+    margin-bottom: 0;
+}
+
+h1 ~ p {
+    color: var(--primary-color);
+}
+
+h1 + p {
+    font-style: italic;
+}
+
+section {
+    h3 {
+        color: red;
+    }
 }
