@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1f5e88;
+    --primary-color: #0d3c5c;
     --secondary-color: #34bf6e;
     --text-color: #16251b;
 }
@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     color: var(--text-color, black);
-    background-color: #ecf0f1;
+    background-color: #c7ffd1;
 }
 
 header, footer {
