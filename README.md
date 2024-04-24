@@ -1,1 +1,2 @@
-# Lab 2 - Starter
+# Lab 3 - Starter
+[Spiffy HTML File with Using CSS](https://michaelpena7.github.io/Lab2_Starter/meetingminutesPena.html)
