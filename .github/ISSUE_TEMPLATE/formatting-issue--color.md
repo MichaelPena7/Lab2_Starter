@@ -1,9 +1,9 @@
 ---
 name: 'Formatting Issue: Color'
 about: to report issues with elements that have incorrect color
-title: ''
-labels: ''
-assignees: ''
+title: "[COLOR-BUG]"
+labels: documentation
+assignees: MichaelPena7
 
 ---
 
