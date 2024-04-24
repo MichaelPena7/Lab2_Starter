@@ -87,7 +87,7 @@ section:has(h3) {
 
 .button {
     background-color: var(--secondary-color);
-    color: rgb(27, 81, 41);
+    color: rgb(97, 110, 255);
     padding: 32px 15px;
     border: 10px solid var(--primary-color);
     border-radius: 10px;
