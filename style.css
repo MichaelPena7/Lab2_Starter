@@ -88,9 +88,9 @@ section:has(h3) {
 .button {
     background-color: var(--primary-color);
     color: rgb(27, 81, 41);
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
+    padding: 16px 15px;
+    border: var(--primary-color);
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -118,7 +118,7 @@ section h3 {
     color: red;
 }
 
-section.logo {
+section.button {
     background-color: blueviolet;
     border: 4px solid green;
 }
