@@ -113,7 +113,7 @@ h1 + p {
     font-style: italic;
 }
 
-section h3 {
+section.h3 {
     color: red;
 }
 
